@@ -6,6 +6,7 @@ function ThemeToggle() {
 
     const toggleTheme = () => {
         setIsLightMode(!isLightMode);
+        document.body.classList.toggle('light-mode', !isLightMode);
     };
 
     return (

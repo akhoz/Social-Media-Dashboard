@@ -1,0 +1,8 @@
+body {
+    background: hsl(230, 17%, 14%);
+    transition: background 0.3s ease;
+}
+
+body.light-mode {
+    background: hsl(0, 0%, 100%);
+}
