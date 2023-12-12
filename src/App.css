@@ -16,8 +16,10 @@ body.light-mode {
 }
 
 .border-instagram {
+    border-top: 4px solid;
     border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
     border-image-slice: 1;
+    border-radius: 0.375rem 0.375rem 0 0;
 }
 
 .border-youtube {

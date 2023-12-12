@@ -7,7 +7,7 @@ function Card(props) {
     const borderClass = `border-t-4 border-${props.borderColor} rounded-md`;
 
     return (
-        <div className={`${isLightMode ? "bg-bgCardLight" : "bg-bgCardDark"} rounded-s ${borderClass} flex flex-col items-center justify-center w-11/12`}>
+        <div className={`w-full ${isLightMode ? "bg-bgCardLight" : "bg-bgCardDark"} rounded-md ${borderClass} flex flex-col items-center justify-center`}>
             <div className="flex items-center my-5">
                 <img src={props.icon} alt={props.iconAlt} />
                 <p className="text-textColor ml-2">

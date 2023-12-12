@@ -5,49 +5,51 @@ import Card from "./components/Card.jsx";
 function App() {
 
     return (
-        <div className="">
+        <div>
             <Header />
-            <div className="grid-cols-1">
-                <Card
-                    borderColor="facebook"
-                    icon="images/icon-facebook.svg"
-                    iconAlt="Facebook Logo"
-                    username="@username"
-                    followers="1987"
-                    textColor="text-limeGreen"
-                    followersIcon="images/icon-up.svg"
-                    amount="12"
-                />
-                <Card
-                    borderColor="twitter"
-                    icon="images/icon-twitter.svg"
-                    iconAlt="Twitter Logo"
-                    username="@username"
-                    followers="1044"
-                    textColor="text-limeGreen"
-                    followersIcon="images/icon-up.svg"
-                    amount="99"
-                />
-                <Card
-                    borderColor="instagram"
-                    icon="images/icon-instagram.svg"
-                    iconAlt="Instagram Logo"
-                    username="@username"
-                    followers="11k"
-                    textColor="text-limeGreen"
-                    followersIcon="images/icon-up.svg"
-                    amount="1099"
-                />
-                <Card
-                    borderColor="youtube"
-                    icon="images/icon-youtube.svg"
-                    iconAlt="YouTube Logo"
-                    username="@username"
-                    followers="8239"
-                    textColor="text-brightRed"
-                    followersIcon="images/icon-down.svg"
-                    amount="144"
-                />
+            <div className="flex items-center justify-center h-fit">
+                <div className="grid grid-cols-1 gap-8 pb-5 w-11/12 md:w-3/4 md:grid-cols-2 lg:w-2/3 lg:grid-cols-4">
+                    <Card
+                        borderColor="facebook"
+                        icon="images/icon-facebook.svg"
+                        iconAlt="Facebook Logo"
+                        username="@username"
+                        followers="1987"
+                        textColor="text-limeGreen"
+                        followersIcon="images/icon-up.svg"
+                        amount="12"
+                    />
+                    <Card
+                        borderColor="twitter"
+                        icon="images/icon-twitter.svg"
+                        iconAlt="Twitter Logo"
+                        username="@username"
+                        followers="1044"
+                        textColor="text-limeGreen"
+                        followersIcon="images/icon-up.svg"
+                        amount="99"
+                    />
+                    <Card
+                        borderColor="instagram"
+                        icon="images/icon-instagram.svg"
+                        iconAlt="Instagram Logo"
+                        username="@username"
+                        followers="11k"
+                        textColor="text-limeGreen"
+                        followersIcon="images/icon-up.svg"
+                        amount="1099"
+                    />
+                    <Card
+                        borderColor="youtube"
+                        icon="images/icon-youtube.svg"
+                        iconAlt="YouTube Logo"
+                        username="@username"
+                        followers="8239"
+                        textColor="text-brightRed"
+                        followersIcon="images/icon-down.svg"
+                        amount="144"
+                    />
+                </div>
             </div>
         </div>
     );
