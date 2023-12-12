@@ -13,7 +13,7 @@ function ThemeToggle() {
             <div className="flex w-10 h-5 bg-gradient-to-r from-gradientInit to-gradientEnd rounded-full md:w-14 md:h-7"
                  onClick={toggleTheme}>
                 <span className={classNames(
-                    "w-5 h-5 bg-headerDark rounded-full md:w-7 md:h-7", {
+                    "w-5 h-5 bg-headerDark rounded-full transition-all duration-300 md:w-7 md:h-7", {
                         "bg-white": isLightMode,
                         "translate-x-5": isLightMode,
                         "md:translate-x-7": isLightMode
