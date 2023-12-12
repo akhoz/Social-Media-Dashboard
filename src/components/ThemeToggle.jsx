@@ -12,11 +12,11 @@ function ThemeToggle() {
             >
         <span
             className={classNames(
-                "w-4 h-4 bg-headerDark rounded-full transition-all duration-300 md:w-6 md:h-6",
+                "w-4 h-4 mx-1 bg-headerDark rounded-full transition-all duration-300 md:w-6 md:h-6",
                 {
                     "bg-white": isLightMode,
-                    "translate-x-6": isLightMode,
-                    "md:translate-x-8": isLightMode,
+                    "translate-x-4": isLightMode,
+                    "md:translate-x-6": isLightMode,
                 }
             )}
         />
