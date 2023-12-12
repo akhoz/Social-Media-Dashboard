@@ -7,16 +7,16 @@ function ThemeToggle() {
     return (
         <div>
             <div
-                className="flex w-10 h-5 bg-gradient-to-r from-gradientInit to-gradientEnd rounded-full md:w-14 md:h-7"
+                className="flex items-center w-10 h-5 bg-gradient-to-r from-gradientInit to-gradientEnd rounded-full md:w-14 md:h-7"
                 onClick={toggleTheme}
             >
         <span
             className={classNames(
-                "w-5 h-5 bg-headerDark rounded-full transition-all duration-300 md:w-7 md:h-7",
+                "w-4 h-4 bg-headerDark rounded-full transition-all duration-300 md:w-6 md:h-6",
                 {
                     "bg-white": isLightMode,
-                    "translate-x-5": isLightMode,
-                    "md:translate-x-7": isLightMode,
+                    "translate-x-6": isLightMode,
+                    "md:translate-x-8": isLightMode,
                 }
             )}
         />
