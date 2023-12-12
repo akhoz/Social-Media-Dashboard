@@ -2,13 +2,14 @@
 import './App.css'
 import Header from "./components/Header.jsx";
 import Card from "./components/Card.jsx";
+import SearchButton from "./components/SearchButton.jsx";
 function App() {
 
     return (
         <div>
             <Header />
-            <div className="flex items-center justify-center h-fit">
-                <div className="grid grid-cols-1 gap-8 pb-5 w-11/12 md:w-3/4 md:grid-cols-2 lg:w-2/3 lg:grid-cols-4">
+            <div className="flex items-center justify-center h-full">
+                <div className="grid grid-cols-1 gap-8 py-5 w-11/12 md:py-24 md:w-3/4 md:grid-cols-2 lg:w-2/3 lg:py-26 lg:grid-cols-4">
                     <Card
                         borderColor="facebook"
                         icon="images/icon-facebook.svg"
@@ -50,6 +51,9 @@ function App() {
                         amount="144"
                     />
                 </div>
+            </div>
+            <div className="flex items-center justify-center">
+                <SearchButton />
             </div>
         </div>
     );
