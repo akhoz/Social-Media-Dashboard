@@ -2,7 +2,6 @@
 import './App.css'
 import Header from "./components/Header.jsx";
 import Card from "./components/Card.jsx";
-import SearchButton from "./components/SearchButton.jsx";
 function App() {
 
     const followersData = [
@@ -15,7 +14,7 @@ function App() {
     const totalFollowers = followersData.reduce((acc, card) => acc + card.followers, 0);
 
     return (
-        <div>
+        <div className="font-">
             <Header
                 totalFollowers={totalFollowers}
             />
@@ -62,9 +61,6 @@ function App() {
                         amount={144}
                     />
                 </div>
-            </div>
-            <div className="flex items-center justify-center">
-                <SearchButton />
             </div>
         </div>
     );
