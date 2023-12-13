@@ -1,8 +1,17 @@
-# React + Vite
+# Social Media Dashboard
+With this project, I aim to enhance my frontend skills and further progress in my 
+learning journey with React. I'm exploring new aspects such as theme switch toggle 
+buttons and more to broaden my understanding. Additionally, this project marks my 
+initial attempt at integrating a frontend with a backend, adding an exciting layer 
+to my learning experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## General information
+This project originates from an idea I found on the 
+[Frontend Mentor website](https://www.frontendmentor.io/home). All icons, 
+colors, and the general project structure were downloaded from their site, 
+and they hold all the rights. I appreciate this approach as it provides a 
+well-defined design for implementation, aligning with my belief in effective 
+collaboration between designers and developers.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Author
+- [@akhoz](https://github.com/akhoz)
