@@ -13,5 +13,7 @@ and they hold all the rights. I appreciate this approach as it provides a
 well-defined design for implementation, aligning with my belief in effective 
 collaboration between designers and developers.
 
+In order to upload this project to GitHub Pages, this repository has only the frontend section.
+
 ## Author
 - [@akhoz](https://github.com/akhoz)
