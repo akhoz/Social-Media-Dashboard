@@ -2,6 +2,7 @@
 import './App.css'
 import Header from "./components/Header.jsx";
 import Card from "./components/Card.jsx";
+import Footer from "./components/Footer.jsx";
 function App() {
 
     const followersData = [
@@ -14,12 +15,12 @@ function App() {
     const totalFollowers = followersData.reduce((acc, card) => acc + card.followers, 0);
 
     return (
-        <div className="font-">
+        <div className="min-h-screen flex flex-col">
             <Header
                 totalFollowers={totalFollowers}
             />
-            <div className="flex items-center justify-center h-full">
-                <div className="grid grid-cols-1 gap-8 py-5 w-11/12 md:py-24 md:w-3/4 md:grid-cols-2 lg:w-2/3 lg:py-26 lg:grid-cols-4">
+            <div className="flex flex-grow items-center justify-center h-full">
+                <div className="grid grid-cols-1 gap-8 py-5 w-11/12 md:py-24 md:w-3/4 md:grid-cols-2 lg:w-2/3 lg:grid-cols-4">
                     <Card
                         borderColor="facebook"
                         icon="images/icon-facebook.svg"
@@ -62,6 +63,7 @@ function App() {
                     />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }
