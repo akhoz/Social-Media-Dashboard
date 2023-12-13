@@ -35,10 +35,10 @@ Card.propTypes = {
     icon: PropTypes.string,
     iconAlt: PropTypes.string,
     username: PropTypes.string,
-    followers: PropTypes.string,
+    followers: PropTypes.number,
     textColor: PropTypes.string,
     followersIcon: PropTypes.string,
-    amount: PropTypes.string
+    amount: PropTypes.number
 };
 
 export default Card;
